@@ -1,5 +1,10 @@
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
 }
 
 h1, h2, p {
@@ -11,9 +16,11 @@ h1, h2, p {
     background-color: burlywood;
     margin-right: auto;
     margin-left: auto;
+    padding: 20px;
+    max-width: 500px;
 }
 
-.flavor {
+.flavor, .dessert {
     text-align: left;
     width: 75%;
 }
