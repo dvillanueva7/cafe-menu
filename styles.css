@@ -3,12 +3,26 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
 h1, h2 {
     font-family: Impact, serif;
 }
 
 h1, h2, p {
     text-align: center;
+}
+
+hr {
+    height: 3px;
+    background-color: brown;
+    border-color: brown;
 }
 
 .menu {
@@ -18,6 +32,10 @@ h1, h2, p {
     margin-left: auto;
     padding: 20px;
     max-width: 500px;
+}
+
+.established {
+    font-style: italic;
 }
 
 .flavor, .dessert {
